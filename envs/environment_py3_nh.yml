@@ -17,7 +17,6 @@ dependencies:
   - packaging
   - pandas
   - pip
-  - pool
   - pyproj
   - scikit-learn
   - scipy
