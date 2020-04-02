@@ -20,6 +20,7 @@ dependencies:
   - pyproj
   - scikit-learn
   - scipy
+  - utm
   - xarray
   - pip:
     - geophpy
