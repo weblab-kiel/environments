@@ -2,7 +2,7 @@ name: py3_nh
 channels:
   - conda-forge
 dependencies:
-  - python=3
+  - python=3.6
   - basemap
   - boule
   - cartopy
@@ -20,6 +20,7 @@ dependencies:
   - pyproj
   - scikit-learn
   - scipy
+  - sphinx
   - simplekml
   - utm
   - xarray
