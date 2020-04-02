@@ -26,4 +26,5 @@ dependencies:
   - xarray
   - pip:
     - geophpy
+    - sphinx_rtd_theme
     - git+https://github.com/GenericMappingTools/pygmt.git@dc178ed6d045275bf642023fe544d73154d5c987
