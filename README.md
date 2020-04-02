@@ -8,3 +8,7 @@ To create the environment, run:
 ```shell
 sudo -E conda create env -f <path_to_env_file> -n <env_name>
 ```
+
+## How to test?
+
+There's notebooks in [`test_notebooks/`](test_notebooks/) that can be executed (make sure to select the correct kernel!) to see if all desired functionality is present.
