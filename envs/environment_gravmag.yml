@@ -1,4 +1,4 @@
-name: py3_nh
+name: gravmag
 channels:
   - conda-forge
 dependencies:
