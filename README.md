@@ -6,7 +6,7 @@ On weblab, we're running a [TLJH](http://tljh.jupyter.org/) with `nb_conda_kerne
 
 To create the environment, run:
 ```shell
-sudo -E conda create env -f <path_to_env_file> -n <env_name>
+sudo -E conda env create -f <path_to_env_file> -n <env_name>
 ```
 
 ## How to test?
