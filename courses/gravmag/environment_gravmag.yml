@@ -1,0 +1,30 @@
+name: gravmag
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - basemap
+  - boule
+  - cartopy
+  - cartopy_offlinedata
+  - gmt=6.0.0
+  - harmonica
+  - ipykernel
+  - matplotlib
+  - netCDF4
+  - numba
+  - numpy
+  - packaging
+  - pandas
+  - pip
+  - pyproj
+  - scikit-learn
+  - scipy
+  - sphinx<3
+  - sphinx_rtd_theme<0.4.3
+  - simplekml
+  - utm
+  - xarray
+  - pip:
+    - geophpy==0.31
+    - git+https://github.com/GenericMappingTools/pygmt.git@dc178ed6d045275bf642023fe544d73154d5c987
