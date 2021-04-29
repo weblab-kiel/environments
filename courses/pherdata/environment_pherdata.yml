@@ -1,0 +1,17 @@
+name: pherdata
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - numpy
+  - scipy
+  - matplotlib
+  - geopandas
+  - rasterio
+  - seaborn
+  - pandas
+  - gdal
+  - pyshp
+  - netcdf4

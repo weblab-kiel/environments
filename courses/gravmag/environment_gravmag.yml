@@ -2,12 +2,13 @@ name: gravmag
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.7
   - basemap
+  - pyshtools
   - boule
   - cartopy
   - cartopy_offlinedata
-  - gmt=6.0.0
+  - gmt
   - harmonica
   - ipykernel
   - matplotlib
@@ -16,15 +17,15 @@ dependencies:
   - numpy
   - packaging
   - pandas
-  - pip
+  - pip<20
   - pyproj
   - scikit-learn
   - scipy
-  - sphinx<3
-  - sphinx_rtd_theme<0.4.3
+  - sphinx
+  - sphinx_rtd_theme
   - simplekml
   - utm
   - xarray
   - pip:
     - geophpy==0.31
-    - git+https://github.com/GenericMappingTools/pygmt.git@dc178ed6d045275bf642023fe544d73154d5c987
+    - git+https://github.com/GenericMappingTools/pygmt.git@v0.3.1
