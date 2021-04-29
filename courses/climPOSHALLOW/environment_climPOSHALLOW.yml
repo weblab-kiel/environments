@@ -15,4 +15,3 @@ dependencies:
   - scipy
   - netCDF4
   - ipykernel
-  
