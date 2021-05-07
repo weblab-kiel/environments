@@ -14,6 +14,7 @@ def main():
         import sklearn
         import scipy
         import netCDF4
+        import xmovie
     except Exception as exception:
         print(f"{exception.__class__.__name__ }: {exception}")
         sys.exit(1)
